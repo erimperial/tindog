@@ -17,7 +17,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 #title {
@@ -27,7 +27,9 @@ body {
 
 #features {
   text-align: center;
-  padding: 7% 0;
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 /* Navigation Bar */
@@ -63,6 +65,8 @@ body {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
 }
 
 /* Feature Section */
@@ -115,4 +119,15 @@ body {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
 }
